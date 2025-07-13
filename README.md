@@ -27,7 +27,7 @@
 ## Инструкция к установке через автоматический установщик
 
 - Скачиваете файл:
-  - либо по ссылкам из секции «[Скачивание со сторонних ресурсов](github.com/Dontaz/themidnightwalk-ru/tree/main?tab=readme-ov-file#скачивание-со-сторонних-ресурсов) → Автоматический установщик» с желаемого источника,
+  - либо по ссылкам из секции «[Скачивание со сторонних ресурсов](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2) → Автоматический установщик» с желаемого источника,
   - либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.exe»;
 - Запускаете .exe файл;
 - Снизу окна программы нажмите «Далее»;
@@ -38,7 +38,7 @@
 
 ## Инструкция к установке вручную из архива
 - Скачиваете архив:
-  - либо по ссылке из секции «[Скачивание со сторонних ресурсов](github.com/Dontaz/themidnightwalk-ru/tree/main?tab=readme-ov-file#скачивание-со-сторонних-ресурсов) → Архив для установки вручную» с желаемого источника,
+  - либо по ссылке из секции «[Скачивание со сторонних ресурсов](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2) → Архив для установки вручную» с желаемого источника,
   - либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.zip»;
 - Переносите папку «TheMidnightWalk» из архива в папку с игрой по пути «...\steamapps\common\The Midnight Walk».
 
@@ -46,11 +46,11 @@
 
 - **Если у вас мой перевод и вы хотите его обновить:**
   - Если устанавливаете новую версию с помощью автоматического установщика:
-    - Скачиваете автоматический установщик с новой версией по ссылкам из секции «[Скачивание со сторонних ресурсов](github.com/Dontaz/themidnightwalk-ru/tree/main?tab=readme-ov-file#скачивание-со-сторонних-ресурсов) → Автоматический установщик» с желаемого источника, либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.exe»;
-    - Выполняете по пунктам инструкцию по установке через автоматический установщик (секция «[Инструкция к установке через автоматический установщик](https://github.com/Dontaz/themidnightwalk-ru/tree/main?tab=readme-ov-file#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D1%89%D0%B8%D0%BA)»);
+    - Скачиваете автоматический установщик с новой версией по ссылкам из секции «[Скачивание со сторонних ресурсов](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2) → Автоматический установщик» с желаемого источника, либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.exe»;
+    - Выполняете по пунктам инструкцию по установке через автоматический установщик (секция «[Инструкция к установке через автоматический установщик](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D1%89%D0%B8%D0%BA)»);
     - Автоматический установщик сам заменит старую версию новой.
   - Если устанавливаете новую версию вручную из архива:
-    - Скачиваете архив для установки вручную с новой версией либо по ссылкам из секции «[Скачивание со сторонних ресурсов](github.com/Dontaz/themidnightwalk-ru/tree/main?tab=readme-ov-file#скачивание-со-сторонних-ресурсов) → Архив для установки вручную», либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.zip»;
+    - Скачиваете архив для установки вручную с новой версией либо по ссылкам из секции «[Скачивание со сторонних ресурсов](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2) → Архив для установки вручную», либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.zip»;
     - Перенесите папку «TheMidnightWalk» из архива в папку с игрой по пути «...\steamapps\common\The Midnight Walk»;
     - Выполните копирование с заменой новым файлом.
 - **Если вы хотите заменить русификатор от другого переводчика моим переводом:**
@@ -60,7 +60,7 @@
     - Перейти в папку «Paks» по пути «\steamapps\common\The Midnight Walk\TheMidnightWalk\Content\» и удалить оттуда все файлы и папки КРОМЕ файла «TheMidnightWalk-Windows.pak» (который весит около 16.5 ГБ);
     - Выбрать желаемый способ установки моего перевода (через автоматический установщик или вручную архивом) и следовать инструкции этого способа.
 - **Если вы хотите заменить мой русификатор (перевод) другим от других переводчиков:**
-  - Удалить мой перевод по инструкции из секции «[Инструкция по удалению перевода](https://github.com/Dontaz/themidnightwalk-ru/edit/main/README.md#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0)» (1 и 2 пункты);
+  - Удалить мой перевод по инструкции из секции «[Инструкция по удалению перевода](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0)» (1 и 2 пункты);
   - Установить перевод от других переводчиков по их инструкции.
 
 ## Инструкция по удалению перевода

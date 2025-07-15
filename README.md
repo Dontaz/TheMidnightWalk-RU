@@ -18,12 +18,12 @@
 - **Автоматический установщик:**
   - [Ссылка на скачивание с Яндекс Диска](https://disk.yandex.ru/d/J4EwEZ5ByxWDAQ)
   - [Ссылка на скачивание с Google Drive](https://drive.google.com/file/d/1fZdoeMvyBcMiQ4_iYgu4d3ja_JtkiU9V/view)
-  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014) (тут не всегда актуальная версия)
-  - [Ссылка на скачивание с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html) (тут не всегда актуальная версия)
+  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
+  - [Ссылка на скачивание с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html)
 - **Архив для установки вручную:**
   - [Ссылка на скачивание с Яндекс Диска](https://disk.yandex.ru/d/OmadX8Tt7EnMZA)
   - [Ссылка на скачивание с Google Drive](https://drive.google.com/file/d/1rRnrQlqRlV2D8ls2QPruRPfODQC-_Yok/view)
-  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014) (тут не всегда актуальная версия)
+  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
   - [Ссылка на скачивание с Nexus Mods](https://www.nexusmods.com/themidnightwalk/mods/8?tab=description)
 
 ---

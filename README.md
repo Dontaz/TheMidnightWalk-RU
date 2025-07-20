@@ -50,6 +50,16 @@
 
 ---
 
+## Инструкция к установке на Steam Deck
+
+- Переходите в режим Рабочего стола (длительное удержание кнопки выключения);
+- Скачиваете архив:
+  - либо по ссылке из секции «[Скачивание со сторонних ресурсов](https://github.com/Dontaz/themidnightwalk-ru?tab=readme-ov-file#%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2) → Архив для установки вручную» с желаемого источника,
+  - либо с [GitHub в Releases](https://github.com/Dontaz/themidnightwalk-ru/releases) файл «The.Midnight.Walk.RU.zip»;
+- Переносите папку «TheMidnightWalk» из архива в папку с игрой по пути «/home/deck/.local/share/Steam/steamapps/common/The Midnight Walk».
+
+---
+
 ## Инструкция к обновлению или замене перевода
 
 - **Если у вас мой перевод и вы хотите его обновить:**

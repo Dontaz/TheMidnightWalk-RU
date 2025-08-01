@@ -1,5 +1,5 @@
 #define MyAppName "Русификатор для The Midnight Walk"
-#define MyAppVersion "2.4 [20250713]"
+#define MyAppVersion "2.5 [20250801]"
 #define MyAppPublisher "Dontaz"
 #define MyAppURL "https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954"
 #define GameName "The Midnight Walk"
@@ -212,6 +212,13 @@ begin
   if DirExists(DefaultPath) then
   begin
     Result := DefaultPath;
+    Exit;
+  end;
+  
+  GamePath := '\home\deck\.local\share\Steam\steamapps\common\{#GameName}';
+  if DirExists(GamePath) then
+  begin
+    Result := GamePath;
     Exit;
   end;
   

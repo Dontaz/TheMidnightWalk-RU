@@ -1,4 +1,4 @@
-# Русификатор для игры The Midnight Walk
+# Русификатор для игры The Midnight Walk <a href="https://store.steampowered.com/app/2863640/The_Midnight_Walk/"><img alt="Static Badge" src="https://img.shields.io/badge/%D0%98%D0%B3%D1%80%D0%B0%20%D0%B2-Steam-TMW?style=flat&logo=steam&color=blue">
 
 ## Содержание
 

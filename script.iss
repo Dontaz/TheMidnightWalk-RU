@@ -1,5 +1,5 @@
 #define MyAppName "Русификатор для The Midnight Walk"
-#define MyAppVersion "2.6 [20250819]"
+#define MyAppVersion "2.8 [20251029]"
 #define MyAppPublisher "Dontaz"
 #define MyAppURL "https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954"
 #define GameName "The Midnight Walk"

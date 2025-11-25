@@ -1,4 +1,6 @@
-# Русификатор для игры The Midnight Walk <a href="https://store.steampowered.com/app/2863640/The_Midnight_Walk/"><img alt="Static Badge" src="https://img.shields.io/badge/%D0%98%D0%B3%D1%80%D0%B0%20%D0%B2-Steam-TMW?style=flat&logo=steam&color=blue">
+# Русификатор для игры The Midnight Walk 
+[![Steam Game](https://img.shields.io/badge/%D0%98%D0%B3%D1%80%D0%B0%20%D0%B2-Steam-TMW?style=flat&logo=steam&color=blue)](https://store.steampowered.com/app/2863640/The_Midnight_Walk/) [![Boosty](https://img.shields.io/badge/Boosty%20-%20Boosty%20-%20Boosty?style=flat&logo=Boosty&logoColor=orange&label=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0&labelColor=gray&color=orange&link=https%3A%2F%2Fboosty.to%2Fdontaz%2Fposts%2F57beefe2-7543-400a-984c-e041583f00a4
+)](https://boosty.to/dontaz/posts/57beefe2-7543-400a-984c-e041583f00a4)
 
 ## Содержание
 

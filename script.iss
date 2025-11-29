@@ -2,6 +2,7 @@
 #define MyAppVersion "2.8 [20251029]"
 #define MyAppPublisher "Dontaz"
 #define MyAppURL "https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954"
+#define MyAppBoosty "https://boosty.to/dontaz"
 #define GameName "The Midnight Walk"
 
 [Setup]
@@ -27,6 +28,8 @@ AppendDefaultDirName=no
 UninstallDisplayName=Удаление русификатора The Midnight Walk
 UninstallFilesDir={app}\Удаление русификатора
 
+DisableWelcomePage=no
+
 [Languages]
 Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 
@@ -37,34 +40,101 @@ Source: "C:\Users\user\Desktop\Programs\Unreal Engine Modding\UnrealPak\Руси
 Type: files; Name: "{app}\TheMidnightWalk\Content\Paks\TheMidnightWalk-Windows_P.pak"
 
 [CustomMessages]
-AuthorInfo=Русификатор разработал Dontaz. При выкладывании русификатора на сторонние сайты просьба указывать авторство.
-VisitLink=По этой кнопке можно найти самую актуальную версию
+WelcomeTitle=Вас приветствует мастер установки русификатора The Midnight Walk
+WelcomeText=Этот мастер поможет вам установить русификатор (версия {#MyAppVersion}) для игры {#GameName}.%n%nАвтор перевода: {#MyAppPublisher}.%nПри публикации на сторонних ресурсах просьба указывать авторство.%n%nНажимая «Далее», вы соглашаетесь с условиями использования.
+VisitLink=🌐 Найти самую актуальную версию (Steam Workshop)
+BoostyLink=🧡 Поддержать автора на Boosty
+DisclaimerLink=⚠️ Отказ от ответственности и условия (Читать)
+DisclaimerFullText=ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ:%n%n1. Данный перевод является неофициальным и фанатским. Он создан исключительно в ознакомительных целях и распространяется бесплатно. Автор не преследует коммерческих целей.%n%n2. Все права на игру принадлежат её компании-разработчику и издателю. Пожалуйста, поддержите разработчиков покупкой лицензионной копии.%n%n3. Установка, использование или модификация файлов осуществляется пользователем добровольно, по собственной инициативе и под его личную ответственность.%n%n4. Автор перевода не несёт ответственности за возможные последствия, технические неполадки или утрату данных. Используя данный материал, вы подтверждаете, что принимаете на себя все риски.
 DeleteOldFile=Найден файл TheMidnightWalk-Windows_P.pak, который может конфликтовать с русификатором. Удалить его?
 
 [Code]
+var
+  VisitLabel: TNewStaticText;
+  BoostyLabel: TNewStaticText;
+  DisclaimerLabel: TNewStaticText;
+
 procedure OpenLink(Sender: TObject);
 var
   ErrorCode: Integer;
 begin
-  ShellExec('open', 'https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954', '', '', SW_SHOWNORMAL, ewNoWait, ErrorCode);
+  ShellExec('open', ExpandConstant('{#MyAppURL}'), '', '', SW_SHOWNORMAL, ewNoWait, ErrorCode);
+end;
+
+procedure OpenBoosty(Sender: TObject);
+var
+  ErrorCode: Integer;
+begin
+  ShellExec('open', ExpandConstant('{#MyAppBoosty}'), '', '', SW_SHOWNORMAL, ewNoWait, ErrorCode);
+end;
+
+procedure ShowDisclaimerBox(Sender: TObject);
+begin
+  MsgBox(CustomMessage('DisclaimerFullText'), mbInformation, MB_OK);
+end;
+
+procedure LinkLabelClick(Sender: TObject);
+begin
+  OpenLink(Sender);
+end;
+
+procedure BoostyLabelClick(Sender: TObject);
+begin
+  OpenBoosty(Sender);
+end;
+
+procedure DisclaimerLabelClick(Sender: TObject);
+begin
+  ShowDisclaimerBox(Sender);
 end;
 
 procedure InitializeWizard;
 var
-  AboutPage: TOutputMsgWizardPage;
-  VisitButton: TNewButton;
+  BottomMargin: Integer;
 begin
-  AboutPage := CreateOutputMsgPage(wpWelcome, 'Информация о русификаторе', '', 
-    CustomMessage('AuthorInfo'));
-    
-  VisitButton := TNewButton.Create(WizardForm);
-  VisitButton.Caption := CustomMessage('VisitLink');
-  VisitButton.OnClick := @OpenLink;
-  VisitButton.Parent := AboutPage.Surface;
-  VisitButton.Width := ScaleX(310);
-  VisitButton.Height := ScaleY(30);
-  VisitButton.Top := ScaleY(80);
-  VisitButton.Left := ScaleX(AboutPage.SurfaceWidth div 2 - 100);
+  BottomMargin := ScaleY(100);
+
+  WizardForm.WelcomeLabel1.Caption := CustomMessage('WelcomeTitle');
+  WizardForm.WelcomeLabel2.Caption := CustomMessage('WelcomeText');
+  
+  WizardForm.WelcomeLabel2.Height := WizardForm.WelcomePage.Height - WizardForm.WelcomeLabel2.Top - BottomMargin;
+
+  VisitLabel := TNewStaticText.Create(WizardForm);
+  VisitLabel.Parent := WizardForm.WelcomePage;
+  VisitLabel.Caption := CustomMessage('VisitLink');
+  VisitLabel.Font.Color := clBlue;
+  VisitLabel.Font.Style := [fsUnderline];
+  VisitLabel.Cursor := crHandPoint;
+  VisitLabel.OnClick := @LinkLabelClick;
+  
+  VisitLabel.Left := WizardForm.WelcomeLabel2.Left;
+  VisitLabel.Top := WizardForm.WelcomeLabel2.Top + WizardForm.WelcomeLabel2.Height + ScaleY(10);
+  VisitLabel.Width := WizardForm.WelcomeLabel2.Width;
+
+  BoostyLabel := TNewStaticText.Create(WizardForm);
+  BoostyLabel.Parent := WizardForm.WelcomePage;
+  BoostyLabel.Caption := CustomMessage('BoostyLink');
+  BoostyLabel.Font.Color := clBlue;
+  BoostyLabel.Font.Style := [fsUnderline];
+  BoostyLabel.Cursor := crHandPoint;
+  BoostyLabel.OnClick := @BoostyLabelClick;
+  
+  BoostyLabel.Left := WizardForm.WelcomeLabel2.Left;
+  BoostyLabel.Top := VisitLabel.Top + VisitLabel.Height + ScaleY(10);
+  BoostyLabel.Width := WizardForm.WelcomeLabel2.Width;
+
+  DisclaimerLabel := TNewStaticText.Create(WizardForm);
+  DisclaimerLabel.Parent := WizardForm.WelcomePage;
+  DisclaimerLabel.Caption := CustomMessage('DisclaimerLink');
+  
+  DisclaimerLabel.Font.Color := $00008B;
+  DisclaimerLabel.Font.Style := [fsUnderline];
+  DisclaimerLabel.Cursor := crHandPoint;
+  DisclaimerLabel.OnClick := @DisclaimerLabelClick;
+  
+  DisclaimerLabel.Left := WizardForm.WelcomeLabel2.Left;
+  DisclaimerLabel.Top := BoostyLabel.Top + BoostyLabel.Height + ScaleY(10);
+  DisclaimerLabel.Width := WizardForm.WelcomeLabel2.Width;
 end;
 
 function GetSteamPath(): String;
@@ -82,7 +152,6 @@ begin
     Result := RegPath;
     Exit;
   end;
-  
   Result := ExpandConstant('{commonpf}\Steam');
 end;
 
@@ -93,10 +162,7 @@ var
 begin
   Result := '';
   TempStr := Line;
-  
-  while (Length(TempStr) > 0) and (TempStr[1] = ' ') do
-    Delete(TempStr, 1, 1);
-    
+  while (Length(TempStr) > 0) and (TempStr[1] = ' ') do Delete(TempStr, 1, 1);
   StartPos := Pos('"', TempStr);
   if StartPos > 0 then
   begin
@@ -110,8 +176,7 @@ begin
       begin
         Delete(TempStr, 1, StartPos);
         EndPos := Pos('"', TempStr);
-        if EndPos > 0 then
-          Result := Copy(TempStr, 1, EndPos - 1);
+        if EndPos > 0 then Result := Copy(TempStr, 1, EndPos - 1);
       end;
     end;
   end;
@@ -124,7 +189,6 @@ var
   CommonDirs: array[0..9] of String;
 begin
   Result := '';
-  
   CommonDirs[0] := 'C:\Games\{#GameName}';
   CommonDirs[1] := 'C:\Игры\{#GameName}';
   CommonDirs[2] := 'C:\Program Files\{#GameName}';
@@ -148,53 +212,19 @@ begin
   for i := 65 to 90 do
   begin
     GamePath := Chr(i) + ':\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Games\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Игры\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Игра\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Game\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Games\Игры\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Игры\Games\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
   end;
 end;
 
@@ -235,13 +265,10 @@ begin
         if Pos('"path"', Line) > 0 then
         begin
           TempPath := GetValueFromLine(Line);
-          
           if TempPath <> '' then
           begin
             GamePath := TempPath + '\steamapps\common\{#GameName}';
-            
             StringChange(GamePath, '\\', '\');
-            
             if DirExists(GamePath) then
             begin
               Result := GamePath;
@@ -256,18 +283,9 @@ begin
   for i := 65 to 90 do
   begin
     GamePath := Chr(i) + ':\SteamLibrary\steamapps\common\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
-    
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
     GamePath := Chr(i) + ':\Steam\steamapps\common\{#GameName}';
-    if DirExists(GamePath) then
-    begin
-      Result := GamePath;
-      Exit;
-    end;
+    if DirExists(GamePath) then begin Result := GamePath; Exit; end;
   end;
   
   GamePath := CheckCommonPirateLocations();

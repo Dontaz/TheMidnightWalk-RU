@@ -28,6 +28,8 @@
 
 Перевёл Dontaz. Полностью готовый ручной перевод на русский язык с вычиткой и редактурой. Сохранены смыслы игры слов, некоторые шутки и нарицательные имена. В меру своих сил литературно иносказал некоторые слова (там, где это подразумевается самой игрой).
 
+![main img](img/main_img.png)
+
 ---
 
 ## Ссылки
@@ -135,11 +137,11 @@
 
 ## Пример перевода (Скриншоты)
 
-![img1](https://github.com/Dontaz/themidnightwalk-ru/blob/main/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%9C%D0%B5%D0%BD%D1%8E.png)
+![img1](img/ex_1.png)
 
-![img2](https://github.com/Dontaz/themidnightwalk-ru/blob/main/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%94%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%9E%D0%BA%D0%BD%D0%BE.png)
+![img2](img/ex_2.png)
 
-![img3](https://github.com/Dontaz/themidnightwalk-ru/blob/main/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B0/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%BA%D0%B8.png)
+![img3](img/ex_3.png)
 
 
 ---

@@ -26,7 +26,7 @@ DisableDirPage=no
 DirExistsWarning=no
 AppendDefaultDirName=no
 WizardImageFile=sidebar.bmp
-;WizardSmallImageFile=small.bmp
+WizardSmallImageFile=small.bmp
 UninstallDisplayName=Удаление русификатора The Midnight Walk
 UninstallFilesDir={app}\Удаление русификатора
 

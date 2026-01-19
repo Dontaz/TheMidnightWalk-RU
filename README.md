@@ -39,6 +39,8 @@
 
 ## Ссылки
 
+- Сообщить об ошибке в переводе: [**ТУТ** (Google Форма)](https://forms.gle/tLcmSh2HMBvBKbaq8)
+
 ### Страницы русификатора в Steam
 
 - [Страница русификатора в Steam Guides (руководствах Steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954)

@@ -1,8 +1,9 @@
 <div align="center">
 
-![banner](img/main_img_banner.webp)
-
 # Русификатор для игры The Midnight Walk 
+
+![banner](img/main_img_banner.webp)
+<br>
 [![Steam Game](https://img.shields.io/badge/%D0%98%D0%B3%D1%80%D0%B0%20%D0%B2-Steam-TMW?style=flat&logo=steam&color=blue)](https://store.steampowered.com/app/2863640/The_Midnight_Walk/) 
 [![Boosty](https://img.shields.io/badge/Boosty%20-%20Boosty%20-%20Boosty?style=flat&logo=Boosty&logoColor=orange&label=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0&labelColor=gray&color=orange&link=https%3A%2F%2Fboosty.to%2Fdontaz%2Fposts%2F57beefe2-7543-400a-984c-e041583f00a4
 )](https://boosty.to/dontaz) 
@@ -36,10 +37,10 @@
 Перевёл Dontaz. Полностью готовый ручной перевод на русский язык с вычиткой и редактурой. Сохранены смыслы игры слов, некоторые шутки и нарицательные имена. В меру своих сил литературно иносказал некоторые слова (там, где это подразумевается самой игрой).
 
 <details>
-  <summary>Полноразмерный баннер</summary> 
-    <div align="center">
-      ![banner img](img/banner_img.webp)
-    </div>
+    <summary>Полноразмерный баннер</summary> 
+        <div align="center">
+            <img src="img/main_img.webp" alt="main_img">
+        </div>
 </details>
 
 ---

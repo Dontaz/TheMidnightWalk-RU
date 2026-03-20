@@ -20,15 +20,15 @@
 
 1. [**Описание**](#описание)
 2. [**Ссылки**](#ссылки)
-    1. [**Страницы русификатора в Steam**](#страницы-русификатора-в-steam)
-    2. [**Скачивание со сторонних ресурсов**](#скачивание-со-сторонних-ресурсов)
-3. [**Инструкция по установке через автоматический установщик**](#инструкция-по-установке-через-автоматический-установщик)
-4. [**Инструкция по установке вручную из архива**](#инструкция-по-установке-вручную-из-архива)
-5. [**Инструкция по установке на Steam Deck**](#инструкция-по-установке-на-steam-deck)
-6. [**Инструкция по обновлению или замене перевода**](#инструкция-по-обновлению-или-замене-перевода)
-7. [**Инструкция по удалению перевода**](#инструкция-по-удалению-перевода)
-8. [**Пример перевода (Скриншоты)**](#пример-перевода-скриншоты)
-9. [**Дисклеймер**](#дисклеймер)
+3. [**Ссылки на скачивание**](#ссылки-на-скачивание)
+4. [**Разные ссылки**](#разные-ссылки)
+5. [**Инструкция по установке через автоматический установщик**](#инструкция-по-установке-через-автоматический-установщик)
+6. [**Инструкция по установке вручную из архива**](#инструкция-по-установке-вручную-из-архива)
+7. [**Инструкция по установке на Steam Deck**](#инструкция-по-установке-на-steam-deck)
+8. [**Инструкция по обновлению или замене перевода**](#инструкция-по-обновлению-или-замене-перевода)
+9. [**Инструкция по удалению перевода**](#инструкция-по-удалению-перевода)
+10. [**Пример перевода (Скриншоты)**](#пример-перевода-скриншоты)
+11. [**Дисклеймер**](#дисклеймер)
 
 ---
 
@@ -45,27 +45,28 @@
 
 ---
 
-## Ссылки
-
-- Сообщить об ошибке в переводе: [**ТУТ** (Google Форма)](https://forms.gle/tLcmSh2HMBvBKbaq8)
-
-### Страницы русификатора в Steam
-
-- [Страница русификатора в Steam Guides (руководствах Steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954)
-- [Страница обсуждения русификатора в Steam Discussions](https://steamcommunity.com/app/2863640/discussions/0/596277279406979971/)
-
-### Скачивание со сторонних ресурсов
+## Ссылки на скачивание
 
 - **Автоматический установщик:**
-  - [Ссылка на скачивание с Яндекс Диска](https://disk.yandex.ru/d/J4EwEZ5ByxWDAQ)
-  - [Ссылка на скачивание с Google Drive](https://drive.google.com/file/d/1fZdoeMvyBcMiQ4_iYgu4d3ja_JtkiU9V/view)
-  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
-  - [Ссылка на скачивание с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html)
+  - [Скачать с GitHub](https://github.com/Dontaz/TheMidnightWalk-RU/releases/latest)
+  - [Скачать с Яндекс Диска](https://disk.yandex.ru/d/J4EwEZ5ByxWDAQ)
+  - [Скачать с Google Drive](https://drive.google.com/file/d/1fZdoeMvyBcMiQ4_iYgu4d3ja_JtkiU9V/view)
+  - [Скачать с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
+  - [Скачать с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html)
 - **Архив для установки вручную:**
-  - [Ссылка на скачивание с Яндекс Диска](https://disk.yandex.ru/d/OmadX8Tt7EnMZA)
-  - [Ссылка на скачивание с Google Drive](https://drive.google.com/file/d/1rRnrQlqRlV2D8ls2QPruRPfODQC-_Yok/view)
-  - [Ссылка на скачивание с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
-  - [Ссылка на скачивание с Nexus Mods](https://www.nexusmods.com/themidnightwalk/mods/8?tab=description)
+  - [Скачать с GitHub](https://github.com/Dontaz/TheMidnightWalk-RU/releases/latest)
+  - [Скачать с Яндекс Диска](https://disk.yandex.ru/d/OmadX8Tt7EnMZA)
+  - [Скачать с Google Drive](https://drive.google.com/file/d/1rRnrQlqRlV2D8ls2QPruRPfODQC-_Yok/view)
+  - [Скачать с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
+  - [Скачать с Nexus Mods](https://www.nexusmods.com/themidnightwalk/mods/8?tab=description)
+
+---
+
+## Разные ссылки
+
+- Сообщить об ошибке в переводе: [**ТУТ** (Google Форма)](https://forms.gle/tLcmSh2HMBvBKbaq8)
+- [Страница русификатора в Steam Guides (руководствах Steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3480297954)
+- [Страница обсуждения русификатора в Steam Discussions](https://steamcommunity.com/app/2863640/discussions/0/596277279406979971/)
 
 ---
 

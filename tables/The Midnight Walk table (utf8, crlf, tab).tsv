@@ -2604,7 +2604,7 @@ MW::Sharpness	Sharpness	Резкость
 MW::ESubtitleTextSize_Small	Small	Маленький	
 MW::EVRRotationStyle::Smooth	Smooth	Плавный	
 MW::SmoothRotationMultiplier_Name	Smooth Rotation Multiplier	Множитель плавного вращения	
-MW::SmoothRotationMultiplier_Description	Smooth Rotation Multiplier, only works if rotation style is smooth	Множитель плавного вращения, работает, только если стиль вращения установлен на плавный	
+MW::SmoothRotationMultiplier_Description	Smooth Rotation Multiplier, only works if rotation style is smooth	Множитель плавного вращения, работает, только если стиль вращения установлен на плавный (Smooth)	
 MW::EVRRotationStyle::Snap15	Snap15	Snap15	
 MW::EVRRotationStyle::Snap30	Snap30	Snap30	
 MW::EVRRotationStyle::Snap45	Snap45	Snap45	

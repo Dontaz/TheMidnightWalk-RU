@@ -55,7 +55,7 @@
   - [Скачать с Яндекс Диска](https://disk.yandex.ru/d/J4EwEZ5ByxWDAQ)
   - [Скачать с Google Drive](https://drive.google.com/file/d/1fZdoeMvyBcMiQ4_iYgu4d3ja_JtkiU9V/view)
   - [Скачать с PlayGround](https://www.playground.ru/midnight_walk/file/the_midnight_walk_rusifikator_teksta_v2_3_20250703_dontaz-1770014)
-  - [Скачать с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html)
+  - [Скачать с Zone of Games](https://www.zoneofgames.ru/games/midnight_walk_the/files/10124.html) ← тут устаревшая версия
 - **Архив для установки вручную:**
   - [Скачать с GitHub](https://github.com/Dontaz/TheMidnightWalk-RU/releases/latest)
   - [Скачать с Яндекс Диска](https://disk.yandex.ru/d/OmadX8Tt7EnMZA)
